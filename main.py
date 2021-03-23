@@ -6,11 +6,11 @@ st.title('This is streamlit')
 
 left_column, right_column = st.beta_columns(2)
 # You can use a column just like st.sidebar:
-b1 = st.button('wazzap')
+file_loader = st.sidebar.file_uploader('Please select an Excel file')
 
 
-if b1:
-    st.write('You clicked me')
+if file_loader is not None:
+    st.write(file_loader.name)
 
 
 # Add a select box to the sidebar:
