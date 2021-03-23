@@ -8,9 +8,7 @@ file_loader = st.sidebar.file_uploader('Please select an Excel file:')
 
 
 if file_loader is not None:
-    st.write(file_loader.name)
-
-
+    df_excel = pd.read_excel(file_loader)
 
 
 

@@ -22,6 +22,7 @@ cryptography @ file:///Users/runner/miniforge3/conda-bld/cryptography_1615330602
 decorator==4.4.2
 defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
 entrypoints @ file:///home/conda/feedstock_root/build_artifacts/entrypoints_1605121927639/work/dist/entrypoints-0.3-py2.py3-none-any.whl
+et-xmlfile==1.0.1
 gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1611836818287/work
 GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1614496354236/work
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
@@ -47,6 +48,7 @@ nest-asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_16
 notebook @ file:///Users/runner/miniforge3/conda-bld/notebook_1610575331858/work
 numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1612953020292/work
 olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+openpyxl==3.0.7
 packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1612459636436/work
 pandas==1.2.3
 pandocfilters==1.4.2
