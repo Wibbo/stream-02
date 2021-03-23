@@ -6,10 +6,10 @@ st.title('This is streamlit')
 
 left_column, right_column = st.beta_columns(2)
 # You can use a column just like st.sidebar:
-left_column.button('Press me!')
+left_column.button('B1')
 
 
-if st.button('Press me!'):
+if st.button('B1'):
     st.write('You clicked me')
 
 
