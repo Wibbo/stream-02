@@ -9,7 +9,8 @@ left_column, right_column = st.beta_columns(2)
 left_column.button('Press me!')
 
 
-
+if st.button('Press me!'):
+    st.write('You clicked me')
 
 
 # Add a select box to the sidebar:
